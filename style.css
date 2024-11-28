@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Default Light Mode Styles */
+
+h1 {
+    font-family: "Tiny5", sans-serif;
+    font-size: 38px;
+    float: left;
+    margin-right: 10vw;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type:none;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    float: left;
+    margin-top: 2vh;
+
+}
+
+li a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    margin-left: 15px;
+    color: black;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#toggleButton{
+    bottom: 94%;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 92%;
+    border-radius: 20px;
+    background-color: black;
+    padding: 1px;
+    color: white;
+    font-family: "Tiny5", sans-serif;
+    top: 2%;
+}
+
+#toggleButton:hover {
+    background-color: #555555;
+}
+
+footer {
+    background-color: black;
+}
+
+.reference {
+    color: white;
+    text-align: center;
+}
+
+.reference a {
+    color: white;
+    text-decoration: none;
+}
+
+.paragraph {
+    font-family: "Tiny5", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 3vh;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Pixelify Sans", serif;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+.footer-socials {
+    text-align: center;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.fa-x-twitter {
+    color: white;
+    font-size: 20px;
+}
+
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #444444;
+}
+
+button.dark-mode {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+nav.dark-mode {
+    color: #ffffff;
+}
+
+
+
