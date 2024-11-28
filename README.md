@@ -24,7 +24,7 @@ README.md - The README.md file gives an overview of the project and it's feature
 
 How to Use
 
-1. Open the index.html file in your web browser
+1. Copy https://juliep0317.github.io/pixelated-memories/ in your browser.
 2. Click the Switch to Dark Mode toggle button to switch to dark mode.
 3. To switch back to light mode, click the Switch to Light Mode toggle button.
 
